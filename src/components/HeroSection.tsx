@@ -7,12 +7,12 @@ const HeroSection = () => {
       <img
         src={heroImage}
         alt="15Vastram - Luxury Indian Ethnic Wear"
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-full h-full object-cover object-top"
         width={1920}
         height={1080}
       />
-      <div className="absolute inset-0 bg-gradient-to-r from-foreground/50 via-foreground/20 to-transparent" />
-      
+      <div className="absolute inset-0 bg-gradient-to-r from-foreground/40 via-foreground/10 to-transparent" />
+
       <div className="relative h-full flex items-end pb-20 md:items-center md:pb-0">
         <div className="container mx-auto px-6">
           <div className="max-w-xl space-y-6 animate-fade-up">
