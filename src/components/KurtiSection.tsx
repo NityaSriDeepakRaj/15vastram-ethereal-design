@@ -6,7 +6,7 @@ const KurtiSection = () => {
   const { addItem } = useCart();
 
   return (
-    <section className="py-20 md:py-28 bg-warm-white">
+    <section id="kurtis" className="py-20 md:py-28 bg-warm-white">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row md:items-end md:justify-between mb-14">
           <div>

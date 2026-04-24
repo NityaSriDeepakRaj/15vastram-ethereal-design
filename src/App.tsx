@@ -10,6 +10,7 @@ import Index from "./pages/Index.tsx";
 import Shop from "./pages/Shop.tsx";
 import Lookbook from "./pages/Lookbook.tsx";
 import About from "./pages/About.tsx";
+import Checkout from "./pages/Checkout.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
@@ -28,6 +29,7 @@ const App = () => (
             <Route path="/shop" element={<Shop />} />
             <Route path="/lookbook" element={<Lookbook />} />
             <Route path="/about" element={<About />} />
+            <Route path="/checkout" element={<Checkout />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
